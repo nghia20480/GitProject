@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyentien</title>
+</head>
+<body>
+
+ <form>
+    <table>
+        <tr>
+            <th>Amount</th>
+            <th>From Currency</th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" name="nhaptien" id="Ammount">
+            </td>
+            <td>
+                <select name="Currency" id="Currency1">
+                    <option value="1">VietNam</option>
+                    <option value="160" >Japan</option></select>
+
+            </td>
+            <td>
+                <select name="Currency" id="Currency2">
+                    <option value="1">VietNam</option>
+                    <option value="160" >Japan</option></select>
+
+            </td>
+
+            <td>
+                <button type="button" style="height: 20px" name="chuyendoi" onclick=chuyenDoi()>Convert</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>ketqua</p>
+                <p  id="result"></p>
+            </td>
+        </tr>
+    </table>
+</form>
+<script>
+    /*let VietNam=1
+    let Japan=0.0016
+    function chuyenDoi() {
+    let  tongtien =document.getElementById('Ammount').value;
+    document.write('sotienla'+tongtien)*/
+    function chuyenDoi(){
+    var a=document.getElementById('Ammount').value;
+    var currency1= document.getElementById('Currency1').value;
+    var currency2= document.getElementById('Currency2').value;
+    var intien=a*(currency1/currency2);
+    document.getElementById('result').innerHTML=+intien;
+    // document.write('intien'+intien);
+
+    }
+</script>
+
+</body>
+</html>

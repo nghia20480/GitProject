@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)file:///E:/GitProject/baitap/Bai%20tap%20may%20tinh.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Maytinh</title>
+</head>
+<body>
+<h2>Caculator</h2>
+<table>
+    <tbody><tr>
+        <td colspan="2">
+            <input type="number" id="nhap1">
+        </td>
+        <td colspan="2">
+            <input type="number" id="nhap2">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="add()">Addition</button>
+        </td>
+        <td>
+            <button onclick="sub()">Subtraction</button>
+        </td>
+        <td>
+            <button onclick="mul()">Multiplication</button>
+        </td>
+        <td>
+            <button onclick="div()">Division</button>
+        </td>
+    </tr>
+</tbody></table>
+<p id="inketqua">2.5</p>
+<script>
+
+
+
+    function add() {
+        var tong
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        tong=giatri1+giatri2;
+
+     document.getElementById('inketqua').innerHTML= tong;
+    }
+    function sub() {
+        var tong
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        tong=giatri1-giatri2;
+
+        document.getElementById('inketqua').innerHTML= tong;
+    }
+    function mul() {
+        var tong
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        tong=giatri1*giatri2;
+
+        document.getElementById('inketqua').innerHTML= tong;
+    }
+    function div() {
+        var tong
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        tong=giatri1/giatri2;
+
+        document.getElementById('inketqua').innerHTML= tong;
+    }
+
+
+
+</script>
+
+</body></html>

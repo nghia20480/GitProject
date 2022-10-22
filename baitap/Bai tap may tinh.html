@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maytinh</title>
+</head>
+<body>
+<h2>Caculator</h2>
+<table>
+    <tr>
+        <td colspan="2">
+            <input type="number" id="nhap1">
+        </td>
+        <td colspan="2">
+            <input type="number" id="nhap2">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <button onclick="add()">Addition(+)</button>
+        </td>
+        <td>
+            <button onclick="sub()">Subtraction(-)</button>
+        </td>
+        <td>
+            <button onclick="mul()">Multiplication(x)</button>
+        </td>
+        <td>
+            <button onclick="div()">Division(/)</button>
+        </td>
+    </tr>
+</table>
+<p id="inketqua"></p>
+<script>
+
+
+
+    function add() {
+        var tong
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        tong=giatri1+giatri2;
+
+     document.getElementById('inketqua').innerHTML= tong;
+    }
+    function sub() {
+        var hieu
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        hieu=giatri1-giatri2;
+
+        document.getElementById('inketqua').innerHTML= hieu;
+    }
+    function mul() {
+        var tich
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        tich=giatri1*giatri2;
+
+        document.getElementById('inketqua').innerHTML= tich;
+    }
+    function div() {
+        var thuong
+        var giatri1= document.getElementById('nhap1').value;
+        var giatri2=document.getElementById('nhap2').value;
+        giatri1=parseInt(giatri1)
+        giatri2=parseInt(giatri2)
+        thuong=giatri1/giatri2;
+
+        document.getElementById('inketqua').innerHTML= thuong;
+    }
+
+
+
+</script>
+</body>
+</html>
