@@ -7,8 +7,14 @@
 <body>
 <script>
 let doC=+prompt('Nhap nhiet do do C')
-let    doF=doC*9/5+32;
-alert('Do F la:'+doF)
+let doF
+     if (Number.isNaN(doC)===false) {
+        doF = doC * 9 / 5 + 32;
+         alert('Do F la:'+doF)
+     } else {
+         alert('vui long nhap lai')
+     }
+
 </script>
 </body>
 </html>
