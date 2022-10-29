@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cuocdienthoai</title>
+</head>
+<body>
+<script>
+    let time=+prompt('Nhap thoi gian su dung trong thang (phut)')
+    if (time<=50){
+        let fee=25000+time*300;
+        alert("so tien ban phai tra la:" +fee)
+    } else {
+        let fee=25000+50*300+(time-50)*500;
+        alert("so tien ban phai tra la:" +fee)
+    }
+
+</script>
+
+</body>
+</html>
+<!--
+phi co dinh  25000
+phi cho 50 phut dau 300d/phut
+tu phut 51-tro di- 500d/phut-->

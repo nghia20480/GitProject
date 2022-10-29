@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tinhhoahong</title>
+</head>
+<body>
+<script>
+    let income=prompt('nhap doanh thu')
+    income=parseFloat(income);
+
+    if (income<10000000){
+        let commission=income*0.05
+        alert('Tien hoa hong la:' +commission)
+    } else if (income<15000000){
+         let commission=income*0.1
+        alert('Tien hoa hong la:' +commission)
+    } else {
+        let commission=income*0.5
+        alert('Tien hoa hong la:' +commission)
+    }
+
+</script>
+
+</body>
+</html>
