@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giải phương trình bậc 1</title>
+</head>
+<body>
+<script>
+    alert('Thuat toan sau day giai phuong trinh bac nhat 1 an co dang:' +
+        'ax+b=0')
+    let giatriA=prompt('nhapA')
+    let giatriB=+prompt('vui long nhap B')
+
+    if (giatriA==0&&giatriB!=0){
+        alert('phuong trinh vo nghiem' )
+    } else if (giatriA==0&&giatriB==0){
+        alert('phuong trinh vo so nghiem')
+    } else {
+        let giatriX = -giatriB / giatriA
+        alert(giatriX)
+    }
+
+
+</script>
+</body>
+</html>

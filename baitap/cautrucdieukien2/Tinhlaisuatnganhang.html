@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Tinhlaisuatnganhang</title>
 </head>
 <body>
-$END$
+<script>
+    let tienGui=+prompt('Nhap so tien gui cua ban');
+    let thoiGian=+prompt('Nhap thoi gian gui tien cua ban (nam)');
+    let laiSuat=+prompt('nhap lai suat trong 1 nam');
+    let laiKep;
+    if (tienGui<=0||thoiGian<=0||laiSuat<=0){
+        alert('Vui long nhap lai');
+    } else {
+        laiKep=tienGui*Math.pow(1+laiSuat/100,thoiGian);
+        alert('so tien ban nhan duoc sau'+thoiGian+'nam la:' +laiKep)
+    }
+
+</script>
 </body>
 </html>

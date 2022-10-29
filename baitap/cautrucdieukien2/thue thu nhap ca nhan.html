@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Thue thu nhap ca nhan</title>
 </head>
 <body>
-$END$
+<script>
+    let thuNhap=+prompt('vui long nhap so tien thu nhap cua ban trong 1 thang (don vi: trieu dong) ')
+    let  phantramthue;
+    let thuephaitra;
+    if (thuNhap<0){
+        phantramthue=0
+    }else if (thuNhap<=5){
+        phantramthue=5
+    } else if(thuNhap<=50){
+        phantramthue=10
+    }  else {
+        phantramthue=15
+    }
+    thuephaitra=phantramthue*thuNhap/100
+    alert('Thue ban phai tra la: '+thuephaitra)
+</script>
 </body>
 </html>

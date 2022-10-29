@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<body>
+<script>
+    let id=prompt('nhap tai khoan');
+    if (id=='admin'){
+        var passWord=prompt('nhap mat khau');
+        if (passWord=='TheMaster'){
+            alert("chao ban hien")
+
+        } else if (passWord == null){
+            alert('Canceled')
+        } else { alert('wrong password')
+
+        }
+
+    }  else if (id==null){
+        alert('Canceled')
+    } else {
+        alert('toi khong quen ban!!')
+    }
+
+</script>
+</body>
+</html>

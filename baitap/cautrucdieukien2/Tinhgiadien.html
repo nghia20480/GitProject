@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Tinhgiadien</title>
 </head>
 <body>
-$END$
+<script>
+    let soDien=+prompt('vui long nhap so dien');
+    let tongTien;
+    if (soDien<=70&&soDien>0){
+        tongTien=soDien*2.5;
+        alert('tien dien cua ban la: '+tongTien);
+    } else {
+        tongTien=(70)*2.5+(soDien-70)*3.5;
+        alert('tien dien cua ban la: ' +tongTien);
+
+    }
+</script>
 </body>
 </html>
