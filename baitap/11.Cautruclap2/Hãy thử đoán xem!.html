@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hãy thử đoán xem!</title>
+</head>
+<body>
+<input type="button"  onclick="hoatdong()" >
+<script>
+    function hoatdong() {
+        let nhap1=+prompt('vui long nhap gia tri dau');
+        let nhap2=+prompt('vui long nhap gia tri sau');
+        let duDoan=+prompt('vui long chon con so may man');
+        let luotchoi=0;
+        let khoangdoan=nhap2-nhap1
+        let rand=Math.floor(Math.random() * khoangdoan);
+        if (duDoan===rand){
+            alert('ban da doan dung')
+        } else {
+        while (rand!==duDoan&&luotchoi<=3){
+             duDoan=+prompt('vui long chon lai con so may man')
+            luotchoi++
+            if (duDoan===rand){
+                alert('ban da doan dung')
+                luotchoi=4
+            }
+        }
+        }if (rand!==duDoan){
+            alert('ban da doan sai')
+        }
+
+        }
+
+
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" onclick="hoatdong()" value="choi" >
+<script>
+    function hoatdong() {
+        let gtri1=+prompt('nhap min');
+        let gtri2=+prompt('nhap max');
+        let khoang=gtri2-gtri1;
+        let dudoan=+prompt('chon so ngau nhien' );
+        let ngaunhien=Math.floor(Math.random() * khoang+gtri1);
+        let vongdoan =0
+        if (ngaunhien===dudoan){
+           alert('ban da dung')
+       } else { vongdoan=0
+           while (vongdoan<2){
+               if (dudoan > ngaunhien){
+                   alert('dudoan>ngaunhien')
+                   dudoan=+prompt('nhaplai')
+               } else if (dudoan<ngaunhien){
+                   alert('dudoan<ngau nhien ')
+                   dudoan=+prompt('nhaplai')
+               } else {
+                   alert('ban da dung')
+                   {break;}
+               }
+
+               vongdoan++
+           }
+       } if (dudoan!==ngaunhien){
+            alert('ban da sai')
+        }
+
+    }
+</script>
+</body>
+</html>

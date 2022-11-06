@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Tính tổng của 20 số đầu tiên trong dãy fibonacci</title>
+</head>
+<body>
+<script>
+    let giatri1=0;
+    let giatri2=1;
+    let giatri3;
+    let tong=giatri1+giatri2;
+    let count=0;
+
+    while (count<18){
+        giatri3=giatri2+giatri1;
+        tong=tong+giatri3
+
+
+        count++;
+        giatri1=giatri2;
+        giatri2=giatri3;
+
+    }document.write(tong);
+
+
+
+</script>
+
+</body>
+</html>
