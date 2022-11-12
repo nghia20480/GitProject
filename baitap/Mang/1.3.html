@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.3</title>
+</head>
+<body>
+<SCRIPT>
+    let numbers = [2, 6, 4, 55, 3, 89, 66, 44, 22,88, 77]
+    let max = 0;
+    let tong=0;
+
+    for (let i = 0; i < numbers.length; i++) {
+        tong+=numbers[i];
+        console.log(tong)
+
+        if (max <= numbers[i]) {
+            max = numbers[i];
+
+        }
+    }
+    let mau=numbers.length;
+
+    let sum=tong/mau;
+    console.log(tong)
+    document.write(' phần tử có giá trị lớn nhất trong mảng la: ' + max + '<br>');
+    document.write('gia tri trung binh la :' + sum)
+
+</SCRIPT>
+
+</body>
+</html>

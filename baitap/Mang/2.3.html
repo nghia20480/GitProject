@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.3</title>
+</head>
+<body>
+<script>
+    let soluong = prompt('vui long nhap so luong')
+    let mang1 = []
+    let count = 0;
+    let b
+    while (mang1.length <= soluong) {
+
+        b = prompt('nhap gia tri vao mang');
+        mang1.push(b)
+        if (isNaN(b) === false) {
+            count++
+        }
+    }
+    document.write(count)
+
+</script>
+</body>
+</html>

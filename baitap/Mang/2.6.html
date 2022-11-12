@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.6</title>
+</head>
+<body>
+<script>
+    let soluong = prompt('vui long nhap so luong')
+    let mang = []
+    let b
+    while (mang.length <= soluong) {
+
+        b = prompt('nhap gia tri vao mang');
+        mang.push(b)
+    }
+    for (let i = 0; i <mang.length ; i++) {
+        if (mang[i]==='-'){
+           mang.splice(i,1,'_')
+        }
+    }mang.toString()
+    console.log(mang)
+
+</script>
+
+</body>
+</html>

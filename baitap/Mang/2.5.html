@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.5</title>
+</head>
+<body>
+<script>
+    let soluong1 = +prompt('vui long nhap so luong mang 1')
+    let soluong2 = +prompt('vui long nhap so luong mang 2')
+    let mang1 = []
+    let mang2 = []
+    let giongnhau;
+    let b
+    let c
+    while (mang1.length <= soluong1) {
+
+        b = prompt('nhap gia tri vao mang1');
+        mang1.push(b)
+    }
+    while (mang2.length <= soluong2) {
+
+        c = prompt('nhap gia tri vao mang2');
+        mang2.push(c)
+    }
+    if (soluong1 !== soluong2) {
+        alert('hai mang khong giong nhau')
+    } else {
+
+        for (let i = 0; i < mang1.length; i++) {
+            if (mang1[i] != mang2[i]) {
+                giongnhau = false
+                break;
+            }
+
+        }if (giongnhau === false) {
+            alert('hai mang khong giong nhau')
+        } else {
+            alert('hai mang giong nhau')
+        }
+    }
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Từ điển</title>
+</head>
+<body>
+<input type="text" name="nhap" id="input">
+<input type="button" onclick="dich()" value="dich">
+<!--<p id="in"></p>-->
+<script>
+    let tienganh=['i','this year','more','70 year old','never','get','this','case'];
+    let tiengviet=['toi','nam nay','hon','70 tuoi','chua  bao gio','gap','nay','truong hop'];
+    function dich() {
+        let kytu=document.getElementById('input').value;
+        if (tienganh.indexOf(kytu)===-1){
+            alert('khong tim thay')
+        } else {
+/*
+            document.getElementById(in()).innerHTML=tiengviet[tienganh.indexOf(kytu)]
+*/
+        alert(tiengviet[tienganh.indexOf(kytu)])
+        }
+
+    }
+
+</script>
+</body>
+</html>

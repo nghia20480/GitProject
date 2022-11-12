@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>chèn dấu (-)</title>
 </head>
 <body>
-$END$
+<script>
+    let strnumber=[0,2,5,4,6,8]
+    let text=strnumber.toString()
+    let result=[text[0]]
+    for (let i = 0; i <strnumber.length ; i++) {
+        if ((strnumber[i-1]%2===0)&&(strnumber[i]%2===0))
+        {
+        result.push('-',text[i]);
+        } else {
+            result.push(strnumber[i])
+        }
+    } console.log(result.join(''))
+
+</script>
 </body>
 </html>

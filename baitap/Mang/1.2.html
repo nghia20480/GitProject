@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.2</title>
+</head>
+<body>
+<script>
+    let numbers = [2, 6, 4, 55, 3, 89, 66, 44, 22.88, 77]
+    let max = 0;
+    for (let i = 0; i <= numbers.length; i++) {
+        if (max <= numbers[i]) {
+            max = numbers[i];
+        }
+    }
+    document.write(' phần tử có giá trị lớn nhất trong mảng la: ' + max + '<br>');
+    document.write('vị trí của phần tử đó la :' + numbers.indexOf(max))
+    /*let numbers=[2,6,4,55,3,89,66,44,22.88,77]
+    let numbers2;
+     numbers2=numbers.sort().reverse()
+        alert(numbers2[0])
+        document.write(numbers.indexOf(numbers2[0]))*/
+</script>
+</body>
+</html>

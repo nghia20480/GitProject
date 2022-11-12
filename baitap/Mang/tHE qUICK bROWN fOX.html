@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tHE qUICK bROWN fOX</title>
+</head>
+<body>
+<script>
+let str ='The Quick Brown Fox';
+let Upper='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let Lower='abcdefghijklmnopqrstuvwxyz';
+let result=[];
+    for(let i=0;i<str.length;i++)
+    {
+        if (Upper.indexOf(str[i])!==-1)
+        {
+            result.push(str[i].toLocaleLowerCase());
+        } else if (Lower.indexOf(str[i])!==-1)
+        {
+            result.push(str[i].toLocaleUpperCase())
+        }  else
+        {
+            result.push(str[i]);
+        }
+    }
+    console.log(result.join(''))
+</script>
+</body>
+</html>

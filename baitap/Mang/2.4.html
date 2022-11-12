@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.4</title>
+</head>
+<body>
+<!--<input type="text" id="nhap">
+<input type="button" onclick="tim()" value="Search">
+<p id="ketqua"></p>-->
+<script>
+    let nhap = prompt('vui long nhap chuoi')
+    let strin = nhap.trim()
+    let count = 0;
+    let ketqua
+    if (strin.length !== 0) {
+        for (let i = 0; i < strin.length; i++) {
+            if (strin[i] === ' ' && strin[i + 1] !== ' ') {
+                count++
+            }
+        }
+        ketqua = count + 1
+        alert('so ky tu co trong chuoi la: ' + ketqua)
+    } else {
+        alert('ham khong co ky tu nao')
+    }
+</script>
+</body>
+</html>

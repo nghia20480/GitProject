@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1.7</title>
+</head>
+<body>
+<script>
+    let b;
+   let mang1=[]
+   while (mang1.length<=10){
+        b=prompt('nhap gia tri vao mang');
+       mang1.push(b)
+   } let c=prompt('nhap gia tri kiem tra')
+   for (let i = 0; i <mang1.length ; i++) {
+       if (mang1[i]===c){
+           mang1.splice(mang1.indexOf(c),1)
+           mang1.push(0)
+       }
+   }console.log(mang1)
+</script>
+</body>
+</html>
