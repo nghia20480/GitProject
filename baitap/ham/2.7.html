@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.7</title>
+</head>
+<body>
+<script>
+    let number1=+prompt('Vui long nhap so thu nhat')
+    let number2=+prompt('Vui long nhap so thu hai')
+    let trans;
+    function Change(a,b) {
+        trans= number1
+        number1=number2
+        number2=trans
+        alert('so sau thay doi la number1= '+number1+', number2= '+number2)
+    }
+    Change(number1,number2)
+</script>
+</body>
+</html>

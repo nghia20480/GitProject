@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng quản lý sản phẩm sử dụng hàm</title>
+</head>
+<body>
+<p> Add New Product </p>
+<form>
+    <p><input type="text" id="input" size="20">
+        <input type="button" onclick="add()" value="Add"></p>
+</form>
+<p id="row"></p>
+
+<script>
+    let list=['iphone','samsung','sony','xiaomi','Htc']
+    let maketable;
+
+        for (let i = 0; i <list.length ; i++) {
+            maketable=
+               '<table>'+ '<tr>' +'<td>'+i+'</td>'+'<th width="200">'+list[i]+'</th>'+'<td>'+'<input type="button" value="Edit" onclick="edit()">'+'<input type="button" value="Clean" onclick="clean()">'+'</td>'
+                +'</tr>'+'</table>'+'<br>'
+            document.write(maketable)
+        }
+
+
+    function add() {
+        let add=document.getElementById('input').value;
+        list.push(add)
+        alert('da them san pham '+add+' vao danh sach')
+        for (let i = 0; i <list.length ; i++) {
+            maketable =
+                '<table'+'id='+i+'>' + '<tr>' + '<td>' + i + '</td>' + '<th width="200">' + list[i] + '</th>' + '<td><button onclick="edit()" ><button onclick="clean()"></td>'
+                + '</tr>' + '</table>'
+            document.write(maketable)
+        }
+    }
+    function clean() {
+
+    }
+
+
+
+
+
+</script>
+</body>
+</html>

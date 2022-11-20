@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.5</title>
+</head>
+<body>
+<script>
+    let number1=+prompt('vui long nhap so dau tien: ')
+    let number2=+prompt('vui long nhap so thu hai: ')
+    let number3=+prompt('vui long nhap so thu ba : ')
+
+    function soSanh(a,b,c) {
+        if (a===b===c){
+            alert('ba gia tri bang nhau')
+        } else if (a<=b&&a<=c){
+            alert('so nho nhat la '+a)
+        } else if (b<=a&&b<=c){
+            alert('so nho nhat la '+b)
+        }   else if (c<=a&&c<=b){
+            alert('so nho nhat la '+c)
+        }
+
+    }
+    soSanh(number1,number2,number3)
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2.9</title>
+</head>
+<body>
+<script>
+    let input;
+    let dodai=prompt('vui long nhap do dai: ')
+    function taomang(x) {
+
+        let arr = []
+        let count = 0;
+        for (let i = 0; i < x; i++) {
+            input = prompt('nhap gia tri vao mang: ')
+            arr.push(input)
+        }
+        let doan = prompt('Nhap gia tri muon kiem tra: ')
+        if (arr.indexOf(doan) === -1) {
+            alert('-1')
+        } else {
+
+            for (let j = 0; j < arr.length; j++) {
+                if (arr[j] === doan) {
+                    count++
+                }
+            } alert(count)
+        }
+    }
+
+    taomang(dodai)
+
+</script>
+</body>
+</html>
