@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva</title>
+</head>
+<body>
+<input type="button" onclick="eat()" value="An tao"  style="color: red">
+<SCRIPT>
+    class apple{
+        constructor(name,weight) {
+            this.name=name;
+            this.weight=weight;
+
+
+        }
+    }
+    class humand{
+        constructor(humandname,gender,humandweight){
+            this.humandname=humandname;
+            this.gender=gender;
+            this.humandweight=humandweight;
+        }
+    }
+    var ape =new apple('tao',0)
+    var huma=new humand('adam','men',70)
+    var woma=new humand('eva', 'women',60)
+    this.saysomething=function () {
+        alert( huma.humandname+' va '+woma.humandname+' dong loat noi: cho xin qua tao!!!!')
+    }
+
+
+    this.eat=function () {
+        if (ape.weight>0){
+            alert('khoi luong qua tao la: '+ape.weight)
+            ape.weight--;
+            huma.humandweight++;
+            alert('khoi luong cua '+huma.humandname+' la :'+huma.humandweight);
+            ape.weight--;
+            woma.humandweight++
+            alert('khoi luong cua '+woma.humandname+' la :'+woma.humandweight);
+        } else {
+            saysomething()
+
+        }
+
+    }
+    /*eat()*/
+</SCRIPT>
+</body>
+</html>

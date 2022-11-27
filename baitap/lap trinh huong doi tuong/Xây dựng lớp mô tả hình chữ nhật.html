@@ -2,9 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Xây dựng lớp mô tả hình chữ nhật</title>
 </head>
 <body>
-$END$
+<script>
+    let Rectangle=function(dai,rong){
+        this.dai=dai;
+        this.rong=rong;
+        this.getdai=function () {
+            return this.dai;
+
+        }
+        this.getrong=function () {
+            return this.rong;
+
+        }
+        this.getdientich = function () {
+            return dientich=dai*rong;
+        }
+        this.getchuvi = function() {
+            return chuvi=rong*2+dai*2;
+        }
+    }
+    let rectangle = new Rectangle(3,4)
+    let chieudai = rectangle.getdai();
+    let chieurong= rectangle.getrong();
+    let dientich = rectangle.getdientich();
+    let chuvi = rectangle.getchuvi();
+
+    alert(chieudai);
+    alert(chieurong);
+    alert(dientich);
+    alert(chuvi);
+
+</script>
+
 </body>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng lớp mô tả Temperature</title>
+</head>
+<body>
+
+</body>
+<SCRIPT>
+    class Temparature{
+        constructor(doC) {
+
+            this.doC = doC;
+            this.getdoC = function () {
+                if (doC>-273) {
+                    return this.doC
+                } else {
+                    alert('vui long nhap lai')
+                }
+            }
+            this.getdoF=function () {
+                return doC*1.8+32
+
+            }
+            this.getdoK=function () {
+                return doC+273.5
+
+            }
+        }
+    }
+    let tempa=new Temparature(25)
+
+    let doF=tempa.getdoF()
+    let doK=tempa.getdoK()
+    alert('Do F duoc chuyen doi tu do C la: ' +doF)
+    alert('Do K duoc chuyen doi tu do c la: ' +doK)
+
+</SCRIPT>
+</html>
