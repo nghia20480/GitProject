@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau2</title>
+</head>
+<body>
+</body>
+<script>
+    let chuoiHoa='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    let chuoiNhap=prompt('vui long nhap chuoi ky tu: ');
+
+    let dem=0;
+    chuoiNhap.split('');
+
+    for (let i = 0; i <chuoiNhap.length ; i++) {
+        if (chuoiHoa.indexOf(chuoiNhap[i])!==-1){
+        dem++}
+    }
+    if (dem>0) {
+        alert('So ky tu viet hoa la: '+dem);
+    } else {
+        alert('The String is not contain upper char');
+    }
+
+
+
+</script>
+</html>

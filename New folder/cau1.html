@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau1</title>
+</head>
+<body>
+
+</body>
+<script>
+
+    let soChan=0;
+    let soLe=0
+    let nhap;
+    let hieuSo=0;
+    let soluong=+prompt('vui long nhap so luong so can tinh toan: ')
+    if (soluong<=20&&soluong>0&&isNaN(soluong)!==true) {
+        for (let i = 0; i < soluong; i++) {
+            nhap = +prompt('vui long nhap so: ')
+
+            if (nhap % 2 === 0) {
+                soChan += nhap;
+            } else {
+                soLe += nhap;
+            }
+        }hieuSo=soChan-soLe;
+        alert('tong cac so chan - tong cac so le = '+hieuSo);
+    } else {
+        alert('vui long nhap lai');
+    }
+
+
+
+</script>
+</html>

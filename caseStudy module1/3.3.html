@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let quanty=+prompt('nhap so luong phan so: ')
+    let numerators=[]
+    let denominators=[]
+    let inputnumerators
+    let inputdenominators
+    let maxFraction=0
+    let max=0
+    for (let i = 0; i <quanty ; i++) {
+        do{
+             inputnumerators=+prompt('vui long nhap tu so: ')
+            if (isNaN(inputnumerators)!==true){
+            numerators.push(inputnumerators)
+                break
+            }
+        } while (isNaN(inputnumerators)!==true)
+        do{
+             inputdenominators=+prompt('vui long nhap mau so: ')
+            if (isNaN(inputdenominators)!==true&&inputdenominators!==0){
+                denominators.push(inputdenominators)
+                break
+            }
+        } while (isNaN(inputnumerators)!==true)
+        
+        if (numerators[i]/denominators[i]>maxFraction){
+            maxFraction=(numerators[i]/denominators[i])
+        }
+    } document.write(maxFraction)
+</script>
+</body>
+</html>

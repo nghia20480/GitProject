@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau3</title>
+</head>
+<body>
+
+</body>
+<script>
+let mangNhap=[];
+let mangXuat=[];
+let thamSo;
+let soLuong;
+soLuong=+prompt('vui long nhap so luong')
+
+for (let i = 0; i < soLuong; i++) {
+    thamSo = +prompt('Vui long nhap tham so truyen vao: ');
+    if (isNaN(thamSo) !== true) {
+        mangNhap.push(thamSo);
+    } else {
+        alert('tham so nhap sai');
+    }
+}
+    console.log(mangNhap)
+    function soNguyenTo() {
+
+
+        for (let i = 0; i <mangNhap.length ; i++) {
+            let dem=0;
+            for (let j = 1; j <=mangNhap[i] ; j++) {
+                if (mangNhap[i]%j===0){
+                    dem++
+
+                }
+                }if (dem===2){
+                mangXuat.push(mangNhap[i]);
+            }
+        }
+
+        mangXuat.sort();
+        alert(mangXuat);
+    }
+    soNguyenTo()
+
+
+
+</script>
+</html>

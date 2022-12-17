@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.1</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    let value;
+    let total=0;
+    let kt1=+prompt('vui long nhap chieu dai ma tran (m): ')
+    let kt2=+prompt('vui long nhap chieu dai ma tran (n): ')
+    for (let i = 0; i <kt1 ; i++) {
+            arr[i]=[]
+        for (let j = 0; j <kt2 ; j++) {
+            value =+prompt('nhap gia tri cua mang: ')
+            arr[i].push(value)
+            if (value%2===0){
+                total=total+value
+            }
+            }
+        }
+        console.log(total)
+
+
+
+
+</script>
+</body>
+</html>

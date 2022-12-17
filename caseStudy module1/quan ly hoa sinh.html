@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quan ly hoc sinh</title>
+</head>
+<body>
+<label for="Name">Ten<input type="text" id="Name" ></label>
+<label for="Age">Tuoi<input type="number" id="Age"></label>
+<label for="Class">Lop<input type="text" id="Class"></label>
+<input type="button" name="Nhap" onclick="input()" value="Nhap">
+<p id="display"></p>
+</body>
+<script>
+    class Student{
+        constructor(Name,Age,ClassName) {
+            this.Name=Name
+            this.Age=Age
+            this.ClassName=ClassName
+        }
+        getName(){
+            return this.Name;
+    }
+        setName(value){
+            this.Name=value;
+
+    }
+    getAge(){
+        return this.Age;
+    }
+    setAge(value){
+        this.Age=value;
+
+    }
+    getClassName(){
+        return this.ClassName;
+    }
+    setClassName(value){
+        this.ClassName=value;
+
+    }
+    toString(){
+            return 'Ho va ten: '+this.Name+'tuoi: '+ this.Age+'Lop: '+this.ClassName
+    }
+    }
+    let arrStu=[]
+    function input() {
+        let Name=document.getElementById('Name')
+        let Age=document.getElementById('Age')
+        let ClassName=document.getElementById('ClassName')
+        let newstudent = new Student(Name,Age,ClassName)
+        arrStu.push(newstudent)
+    }
+    console.log(arrStu)
+    function display_(){
+        let str='<table border="2">'+'<tr>'+'<td>'+'Ten'+'</td>'+'<td>'+'Tuoi'+'</td>'+'<td>'+'Lop'+'</td>'+'</tr>'
+        for (let i = 0; i <arrStu.length ; i++) {
+            str+='<tr>'+'<td>'+arrStu[i].getName()+'</td>'+'<td>'+arrStu[i].getAge()+'</td>'+'<td>'+arrStu[i].getClassName()+'</td>'+'</tr>'
+
+        } str +='</table>'
+        document.getElementById('display').innerHTML=str
+    }
+    display_()
+
+
+
+</script>
+</html>

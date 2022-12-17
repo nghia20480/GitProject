@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.5</title>
+</head>
+<body>
+<ol>
+    <li>Cafe</li>
+    <li>Cam vắt</li>
+    <li>Nước ép cà rốt</li>
+    <li>Nước ép cà chua</li>
+    <li>Nước lọc</li>
+    <li>Nước dừa</li>
+    <li>Thoat goi mon</li>
+</ol>
+<input type="button" value="Goi Mon" onclick="datMon()">
+<script>
+    let number=[1,2,3,4,5,6,7]
+    let price=[10.000,20.000,15.000,17.000,3.000,20.000,0]
+    let totalPrice=0
+    let oder
+    function datMon() {
+         do {oder=+prompt('Moi quy khach dat mon: ')
+        totalPrice=totalPrice + price[number.indexOf(oder)]
+             console.log(totalPrice)}
+         while (oder!==7)
+        alert('so tien quy khach can thanh toan la: '+totalPrice+' nghin dong')
+    }
+</script>
+</body>
+</html>

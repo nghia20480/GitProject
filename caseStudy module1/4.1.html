@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4.1</title>
+</head>
+<body>
+<SCRIPT>
+
+let input=prompt('vui long nhap chuoi: ')
+        input.trim()
+    let arr= input.split(" ")
+let arr1=[]
+
+for (let i = 0; i <arr.length ; i++) {
+    if (arr[i]!==''){
+        arr[i].toLowerCase()
+        arr1.push(arr[i])
+    }
+
+}
+console.log(arr1)
+let string_,kq='';
+for (let i = 0; i <arr1.length ; i++) {
+   string_=arr1[i];
+    string_= string_.charAt(0).toUpperCase()+string_.slice(1)
+     kq+=string_
+}
+
+    console.log(kq)
+</SCRIPT>
+</body>
+</html>

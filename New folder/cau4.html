@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau4</title>
+</head>
+<body>
+<input type="button" value="Them Dien Thoai" onclick="ThemMoi()">
+<input type="button" value="Hien Thi" onclick="hienthi()">
+<p id="hienthi_"></p>
+
+</body>
+<script>
+    class dienThoai{
+        constructor(ma,ten,hang) {
+            this.ma=ma;
+            this.ten=ten;
+            this.hang=hang;
+        }
+        getma(){
+            return this.ma;
+        }
+        setma(value){
+           this.ma=value;
+        }
+        getten(){
+            return this.ten;
+        }
+        setten(value){
+            this.ten=value;
+        }
+        gethang(){
+            return this.hang;
+        }
+        sethang(value){
+            this.hang=value;
+        }
+        toString(){
+            return "Ma: "+ this.ma+'Ten: '+this.ten+'hang: '+this.hang;
+        }
+
+
+    }
+    let mangDienThoai=[]
+
+    function ThemMoi() {
+        let Ten_=prompt('Nhap ten dien thoai: ');
+        let Ma_=prompt('Nhap ma dien thoai: ');
+        let Hang_=prompt('Nhap hang dien thoai: ');
+        let dienthoai1=new dienThoai(Ma_,Ten_,Hang_);
+    mangDienThoai.push(dienthoai1)
+    }
+    function hienthi() {
+    let str=''
+
+    for (let i = 0; i <mangDienThoai.length; i++) {
+        str+='Ten:'+mangDienThoai[i].getten()+' Ma dien thoai: '+mangDienThoai[i].getma()+' Hang dien thoai: '+mangDienThoai[i].gethang()+'.'+'<br>'
+
+    }document.getElementById('hienthi_').innerHTML=str
+    }
+
+</script>
+</html>

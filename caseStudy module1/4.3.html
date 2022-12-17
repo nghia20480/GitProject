@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4.3</title>
+</head>
+<body>
+
+<script>
+    let s1='aaabcccccccccccccddd'
+    let s2='adcccccbccccccaaaaaad'
+    let arr1=s1.split('')
+    let arr2=s2.split('')
+
+    let arr3=[]
+    let arr4=[]
+
+    for (let i = 0; i <arr1.length ; i++) {
+    if(arr2.indexOf(arr1[i])!==-1) {
+
+       arr3.push(arr1[i])
+    }
+    }
+
+    for (let i = 0; i <arr2.length ; i++) {
+        if(arr1.indexOf(arr2[i])!==-1) {
+
+            arr4.push(arr2[i])
+        }
+    }
+
+    /*arr3.sort()
+    arr4.sort()*/
+    console.log(arr3)
+    console.log(arr4)
+    let arr5=[arr3[0]]
+    for (let i = 1; i <arr3.length ; i++) {
+        if (arr3[i]!==arr3[i-1]){
+            arr5.push(arr3[i])
+        }
+    }
+    console.log(arr5)
+    let arr6=[]
+    let length_=arr3.length>arr4.length?arr3.length:arr4.length
+    for (let i = 0; i <arr5.length ; i++) {
+        let count1 = 0
+        let count2 = 0
+        for (let j = 0; j <length_; j++) {
+            if (arr5[i] === arr3[j]) {
+                count1++
+            }
+            if (arr5[i] === arr4[j]) {
+                count2++
+            }
+        }if (count2>count1){
+            arr6.push(count1)
+            arr6.push(arr5[i])
+        } else {
+            arr6.push(count2)
+            arr6.push(arr5[i])
+        }
+    }
+    console.log(arr6)
+    let string_= arr6.toString()
+    alert('cac ky tu trung nhau la: '+string_)
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5.2</title>
+</head>
+<body>
+<script>
+    let arr=[[1,2,3,4,5],[6,7,8,9,10]]
+    let Count=0;
+    for (let i = 0; i <2 ; i++) {
+        for (let j = 0; j <5 ; j++) {
+            let count=0;
+            for (let k = 1; k <=arr[i][j] ; k++) {
+                if (arr[i][j]%k===0){
+                    count++
+                }
+
+            }if (count===2){
+                Count++
+            }
+        }
+
+    }
+    alert(Count)
+</script>
+</body>
+</html>
