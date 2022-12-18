@@ -6,7 +6,6 @@ public class Hienthiloichao {
         System.out.println("Enter your name: ");
         String name = sc.nextLine();
         System.out.println("Hello:"+name);
-        String a = sc.();
-        System.out.println("Hello:"+a);
+
     }
 }
