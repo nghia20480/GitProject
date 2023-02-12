@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AccessModifier/AccessModifier.iml" filepath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bai3ArrvaMenthod/Bai3ArrvaMenthod.iml" filepath="$PROJECT_DIR$/Bai3ArrvaMenthod/Bai3ArrvaMenthod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/Inheritance/Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MangVaPhuongThuc/MangVaPhuongThuc.iml" filepath="$PROJECT_DIR$/MangVaPhuongThuc/MangVaPhuongThuc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstractClass/abstractClass.iml" filepath="$PROJECT_DIR$/abstractClass/abstractClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstractClassVaInterFace/abstractClassVaInterFace.iml" filepath="$PROJECT_DIR$/abstractClassVaInterFace/abstractClassVaInterFace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/baitap1/baitap1.iml" filepath="$PROJECT_DIR$/baitap1/baitap1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/module2.iml" filepath="$PROJECT_DIR$/.idea/module2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

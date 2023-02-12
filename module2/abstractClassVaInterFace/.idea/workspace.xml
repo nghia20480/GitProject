@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6e5a849-0624-453e-9cda-37b2e108b9d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance/src/bai2/Poin2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance/src/bai2/Poin3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance/src/bai2/TestPoin3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Inheritance/src/bai2/testPoin2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../abstractClass/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/AnimalVaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/AnimalVaInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/Kethua/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/TrienKhaiInterChoLoopHinhHoc/AbstractAndInterfaceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/TrienKhaiInterChoLoopHinhHoc/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/TrienKhaiListDonGian/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ThuchanahModul2/untitled/src/TrienKhaiListDonGian/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2JSA6aQo282VMCxne2DqYhtubBR" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -44,8 +53,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672061005491</updated>
       <workItem from="1672061008312" duration="24000" />
+      <workItem from="1673148817534" duration="1357000" />
+      <workItem from="1673178867234" duration="645000" />
+      <workItem from="1673261847432" duration="622000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

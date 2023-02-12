@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0427de7-58a6-40e0-bc9c-a60659af5304" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/trien_khai_linkerlist/MyLinkerList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/trien_khai_linkerlist/TestMyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/AnimalVaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/AnimalVaInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/Kethua/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/TrienKhaiInterChoLoopHinhHoc/AbstractAndInterfaceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/TrienKhaiInterChoLoopHinhHoc/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/TrienKhaiListDonGian/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThuchanahModul2/untitled/src/TrienKhaiListDonGian/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccessModifier/AccessModifier.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai3ArrvaMenthod/Bai3ArrvaMenthod.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/Inheritance.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MangVaPhuongThuc/MangVaPhuongThuc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractClassVaInterFace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/abstractClassVaInterFace/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractClassVaInterFace/abstractClassVaInterFace.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/baitap1/baitap1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2K5aHKE2IJKrbnxLtz8I3LrOHyQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/GitProject/module2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0427de7-58a6-40e0-bc9c-a60659af5304" name="Changes" comment="" />
+      <created>1673266809870</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1673266809870</updated>
+      <workItem from="1673266811558" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
