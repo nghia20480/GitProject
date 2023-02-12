@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1929c3b2-707a-462d-83a7-91c169491fcb" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/CaiDatThuatToanTimKiemNhiPhan/src/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/CaiDatThuatToanTimKiemNhiPhan/src/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/Javacollectionframework/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/Javacollectionframework/src/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/Javacollectionframework/src/ProductManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/Javacollectionframework/src/ProductManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/Javacollectionframework/src/RunProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/Javacollectionframework/src/RunProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/AnimalVaInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/AnimalVaInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/CircleRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/HeCacDoiTuongHInhHoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/Kethua/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/TrienKhaiInterChoLoopHinhHoc/AbstractAndInterfaceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/TrienKhaiInterChoLoopHinhHoc/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/TrienKhaiListDonGian/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/TrienKhaiListDonGian/MyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/TrienKhaiStackSuDungLinkedList/MyGenericStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/TrienKhaiStackSuDungLinkedList/MyGenericStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/trien_khai_linkerlist/MyLinkerList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/trien_khai_linkerlist/MyLinkerList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/trien_khai_linkerlist/TestMyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled/src/trien_khai_linkerlist/TestMyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled1/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled1/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled1/src/Trien_khai_queue_su_dung_dslk/LinkedListQueyeClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled1/src/Trien_khai_queue_su_dung_dslk/LinkedListQueyeClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled1/src/Trien_khai_queue_su_dung_dslk/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../ThuchanahModul2/untitled1/src/Trien_khai_queue_su_dung_dslk/Node.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Lct4qP1O3lZrp6JPCPyB1Bd8Pl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/GitProject/module2/thuat_toan_sap_xep"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1929c3b2-707a-462d-83a7-91c169491fcb" name="Changes" comment="" />
+      <created>1676182010902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676182010902</updated>
+      <workItem from="1676182012985" duration="47000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
