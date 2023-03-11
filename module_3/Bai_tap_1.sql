@@ -1,6 +1,12 @@
-SELECT * FROM student_manager.class;
-insert into student_manager.class(id,name)
-value(9,'bon');
-select*from student_manager.teacher;
-insert into student_manager.teacher(id,name,age,country)
-value(5,'ka',55,'bachan');
+create table class(
+	id_class int,name varchar(50) not null
+);
+create table student(
+	id_student int primary key auto_increment,
+    name varchar(50),age int);
+create table teacher(
+	id_teacher int ,
+    name varchar(50),
+	age int,
+    country varchar(50)
+);
