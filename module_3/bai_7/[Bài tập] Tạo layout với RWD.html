@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body{
+            display: grid;
+            grid-template-areas:
+        'head head head head head'
+        'left central central central right'
+        'foot foot foot foot foot';
+            margin: 0px;
+        }
+        #head{
+
+            background-color: black;
+            grid-area: head;
+
+        }
+         #left{
+             min-height: 500px;
+            grid-area: left;
+            background-color: lightgray;
+
+        }
+         #central{
+            grid-area: central;
+            background-color: white;
+
+        }
+         #right{
+            grid-area: right;
+            background-color: lightgray;
+
+        }
+        #foot{
+            grid-area: foot;
+        background-color: grey;
+
+        }
+      #menu{
+          margin: 0px;
+      }
+        #menu ul{
+            position: relative;
+            float: left;
+            padding: 0px;
+            margin: 0px;
+        }
+        #menu li{
+            position: relative;
+            float: left;
+            list-style: none;
+            margin: 0;
+            padding: 0px;
+        }
+        #menu li a{
+            width:100px;
+            height: 30px;
+            display: block;
+            text-decoration:none;
+            text-align: center;
+            line-height: 30px;
+            background-color: black;
+            color: white;
+        }
+        #selection li {
+            text-decoration: none;
+        }
+        #menu li a:hover{
+            background-color: grey;}
+        #left section  li a{
+            text-decoration: none;
+        }
+        #left ul li {
+            text-align: center;
+
+
+        }
+        #foot p{
+            font-size: 15px;
+            color: white;
+            text-align: center;
+        }
+        #right #ads1{
+
+            display: inline;
+            padding: 30px;
+            position: relative;
+            top: 50px;
+            left: 120px;
+            border: darkgray;
+            border-style: solid;
+            text-align: center;
+        }
+        #right #ads2{
+            text-align: center;
+            display: inline;
+            padding: 30px;
+            position: relative;
+            top: 150px;
+            left: 30px;
+            border: darkgray;
+            border-style: solid;
+            text-align: center;
+        }
+
+
+
+    </style>
+</head>
+<body>
+<div id="head">
+
+    <ul id="menu">
+        <li><a href="#">Logo</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <i class="fa fa-sign-out" aria-hidden="true"></i>
+</div>
+
+<div id="left">
+    <ul id="selection">
+    <li><a href="#">Link</a></li>
+    <li><a href="#">Link</a></li>
+    <li><a href="#">Link</a></li>
+</ul></div>
+<div id="central">
+    <di id="text1"><p>Welcome</p></di>
+    <di id="text2"><p>Test</p></di>
+</div>
+<div id="right"><p id="ads1">ads</p>
+    <p id="ads2">ads</p>
+</div>
+
+<div id="foot"><p>Footer text</p></div>
+</body>
+</html>

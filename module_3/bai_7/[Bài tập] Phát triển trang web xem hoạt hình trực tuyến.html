@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catoohub</title>
+    <style>
+        /*#title{*/
+        /*    grid-column-start: 1;*/
+        /*    grid-column-end: 3;*/
+        /*    grid-row-start: 1;*/
+        /*    grid-row-end: 2;*/
+        /*    background-color: slategray;*/
+        /*}*/
+        /*#selection{*/
+        /*    background-color: yellow;*/
+        /*    grid-column-start: 1;*/
+        /*    grid-column-end: 3;*/
+        /*    grid-row-start: 2;*/
+        /*    grid-row-end: 3;*/
+
+        /*}*/
+        /*#selection p{*/
+        /*    font-family: Tahoma;*/
+        /*    font-size: 16px;*/
+        /*    position: relative;*/
+        /*    float: left;*/
+        /*    margin: 0px 0px 0px 3px;*/
+        /*    border: seagreen;*/
+        /*    border-style: solid;*/
+        /*    padding: 1px;*/
+
+
+        /*}*/
+        /*#suggest{*/
+        /*    background-color: salmon;*/
+        /*    height: 500px;*/
+        /*    grid-column-start: 1;*/
+        /*    grid-column-end: 2;*/
+        /*    grid-row-start: 3;*/
+        /*    grid-row-end: 4;*/
+
+
+        /*}*/
+        /*#contend{*/
+        /*    height: 500px;*/
+        /*    background-color: darkred;*/
+        /*    grid-column-start: 2;*/
+        /*    grid-column-end: 3;*/
+        /*    grid-row-start: 3;*/
+        /*    grid-row-end: 4;*/
+        /*    display: flex;*/
+        /*    justify-content: center;*/
+
+        /*}*/
+        /*#footer{*/
+        /*    background-color: aquamarine;*/
+        /*    grid-column-start: 1;*/
+        /*    grid-column-end: 3;*/
+        /*    grid-row-start: 4;*/
+        /*    grid-row-end: 5;*/
+        /*}*/
+        /*body{*/
+        /*    !*display: grid;*!*/
+        /*    !*grid-template-columns: 20% 80%;*!*/
+        /*    !*grid-template-rows: 15% 5% 70% 10%;*!*/
+        /*    !*grid-gap: 5px ;*!*/
+        /*    !*margin: 0px;*!*/
+        /*}*/
+
+        header{
+            height: 100px;
+            background: blue;
+        }
+
+        header img{
+            height: 100px;
+            width: 100px;
+        }
+
+        nav ul{
+            list-style: none;
+        }
+
+        nav ul li{
+            display: inline;
+            padding: 30px;
+        }
+
+        main{
+            display: flex;
+            width: 100%;
+        }
+
+        aside{
+            flex: 3;
+            background: red;
+            height: 1000px;
+        }
+
+        section{
+            flex: 7;
+            background: yellow;
+        }
+        section iframe{
+           align-items: center;
+        }
+
+        /*#contend h2{*/
+        /*    position: absolute;*/
+        /*    text-align: center;*/
+        /*}*/
+
+
+        /*#title #logo{*/
+        /*    position: absolute;*/
+        /*    top: 5px;*/
+        /*    left: 5px;*/
+        /*    height: 90px;*/
+        /*    width: 90px;*/
+
+        /*}*/
+        /*#suggest #goiy1{*/
+        /*    position: absolute;*/
+        /*}*/
+        /*#suggest #goiy1 img{*/
+        /*position: absolute;*/
+        /*   top: 10px;*/
+        /*    left: 10px;*/
+
+        /*}*/
+        /*#suggest #goiy1 h6{*/
+        /*    position: absolute;*/
+        /*    top: 160px;*/
+        /*    left: 10px;*/
+        /*    text-align: justify;*/
+
+        /*}*/
+        /*#suggest #goiy2{*/
+        /*    position: absolute;*/
+        /*}*/
+        /*#suggest #goiy2 img{*/
+        /*    position: absolute;*/
+        /*    top: 180px;*/
+        /*    left: 10px;*/
+
+        /*}*/
+        /*#suggest #goiy2 h6{*/
+        /*    position: absolute;*/
+        /*    top: 190px;*/
+        /*    left: 10px;*/
+
+        /*}*/
+
+    </style>
+</head>
+<body>
+<header>
+    <img id="logo" src="E:\GitProject\module_3\bai_7\channels4_profile.jpg" >
+</header>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Home1</li>
+        <li>Home2</li>
+        <li>Home3</li>
+        <li>Home5</li>
+    </ul>
+</nav>
+
+
+<main>
+    <aside>
+
+        <div id="goiy1"><img src="E:\GitProject\module_3\bai_7\fa868626e4196520e68f67b4fc713155dab8c45b6a0138a0fc47f6c4a7cc9339._UY500_UX667_RI_V_TTW_.jpg" height="140" width="250">
+            <h6 style="size: 100px"><!--Tom and Jerry vol5--> </h6></div>
+        <div id="goiy2"><img src="E:\GitProject\module_3\bai_7\fa868626e4196520e68f67b4fc713155dab8c45b6a0138a0fc47f6c4a7cc9339._UY500_UX667_RI_V_TTW_.jpg" height="140" width="250">
+            <h6 style="size: 100px"><!--Tom and Jerry vol5--> </h6></div>
+        <div id="goiy3"></div>
+
+    </aside>
+
+    <section>
+        <iframe  width="640" height="345"
+                 src="https://www.youtube.com/embed/tgbNymZ7vqY" type="video/mp4">
+        </iframe>
+        <h2>
+            Thu bong bieu dien bai hat Bohemian Rhapsody
+        </h2>
+    </section>
+</main>
+
+<footer>
+    <p>ban quyen thuoc ve </p>
+</footer>
+
+</body>
+</html>

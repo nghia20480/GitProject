@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Bài tập] Tạo layout với các thẻ HTML5 và CSS</title>
+    <style>
+        body {
+            font-family: Verdana;
+            font-size: 0.9em;
+        }
+        header {
+            padding: 10px;
+            margin: 1;
+            border: grey,2px;
+            border-style: solid;
+            text-align: center;
+        }
+        nav{
+            margin: 1;
+            border: grey,2px;
+            border-style: solid;
+            text-align: left;
+
+        }
+        #section1{
+            background-color: aqua;
+        }
+        #artice1{
+            background-color: yellowgreen;
+        }
+        #aside{
+            background-color: salmon;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5;
+        }
+        #list{
+            background-color: darkgrey;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        #list ul li {
+            position: relative;
+            float: left;
+            align-content: center;
+            list-style-type: none;
+        }
+        #footer{
+            background-color: yellow;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        #container{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            grid-template-rows: 15% 10% 35% 30% 10%;
+        grid-gap: 10px ;
+
+        }
+        #title{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+    </style>
+</head>
+<body>
+<div id="container">
+    <header id="title">
+        <h1 >The Times</h1>
+    </header>
+    <nav id="list">
+<ul>
+    <li>Tin tuc</li>
+    <li>The thao</li>
+    <li>Gia vang</li>
+    <li>Thoi tiet</li>
+</ul>
+    </nav>
+
+    <section id="section1">
+        <h2>New Section</h2>
+        <article>
+        <h2>News Artice</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+        </article>
+    </section >
+    <aside id="aside">
+        <p>Noi dung</p>
+    </aside>
+        <article id="artice1">
+            <h2>News Artice2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque in porta lorem. Morbi condimentum est nibh, et consectetur tortor feugiat at.</p>
+        </article>
+
+
+    <footer id="footer">
+        <p>&copy; 2014 Monday Times. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+</html>
